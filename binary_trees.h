@@ -25,9 +25,9 @@ typedef struct binary_tree_s heap_t;
 
 /**Helpers Functions Testing **/
 
-//static int print_t(const binary_tree_t *tree, int offset, int depth, char **s);
+static int print_t(const binary_tree_t *tree, int offset, int depth, char **s);
 void binary_tree_print(const binary_tree_t *tree);
-// static size_t _height(const binary_tree_t *tree);
+static size_t _height(const binary_tree_t *tree);
 
 /**Prototypes Functions ===> [Mandatory Tasks]**/
 
