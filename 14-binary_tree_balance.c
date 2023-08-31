@@ -25,9 +25,9 @@ return (countLeft - countRight);
  */
 size_t max(size_t value1, size_t value2)
 {
-        if (value1 < value2)
-                return (value2);
-        return (value1);
+if (value1 < value2)
+return (value2);
+return (value1);
 }
 /**
  * binary_tree_height - function that calculate the height of a binary tree
